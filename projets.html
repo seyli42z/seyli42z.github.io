@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets & Veille | Ilyès Ahouari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Ilyès<span>.</span></a>
+      <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a class="active" href="projets.html">Projets & Veille</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">MON TRAVAIL</p>
+        <h1>Projets & Veille</h1>
+        <p>Quelques exemples de projets et de sujets technologiques que je pourrais présenter dans mon portfolio.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <p class="eyebrow">3 PROJETS</p>
+      <h2 class="section-title">Mes projets</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Infrastructure réseau</h3>
+          <p>Création d'une petite infrastructure avec VLAN, DHCP, routage inter-VLAN et sécurisation des accès.</p>
+          <div class="tags"><span>Cisco</span><span>VLAN</span><span>DHCP</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Serveur de supervision</h3>
+          <p>Mise en place d'un serveur permettant de suivre l'état des machines et des services d'un réseau.</p>
+          <div class="tags"><span>Linux</span><span>Proxmox</span><span>Monitoring</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Site web portfolio</h3>
+          <p>Développement de ce portfolio pour présenter mon parcours, mes compétences, mes projets et ma veille.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <p class="eyebrow">6 SUJETS</p>
+        <h2 class="section-title">Veille technologique</h2>
+        <p class="section-intro">Exemples de sujets fictifs à développer au fur et à mesure de ma veille.</p>
+        <div class="watch-grid">
+          <article class="watch-card"><span>01</span><h3>Intelligence artificielle</h3><p>Évolution de l'IA et utilisation dans les entreprises.</p></article>
+          <article class="watch-card"><span>02</span><h3>Cybersécurité</h3><p>Nouvelles menaces, attaques et moyens de protection.</p></article>
+          <article class="watch-card"><span>03</span><h3>Réseaux Wi-Fi</h3><p>Évolution du Wi-Fi et nouvelles technologies sans fil.</p></article>
+          <article class="watch-card"><span>04</span><h3>Cloud computing</h3><p>Services cloud, virtualisation et évolution des infrastructures.</p></article>
+          <article class="watch-card"><span>05</span><h3>Objets connectés</h3><p>Développement de l'IoT et enjeux liés à la sécurité.</p></article>
+          <article class="watch-card"><span>06</span><h3>Automatisation</h3><p>Scripts et outils permettant d'automatiser les tâches informatiques.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Ilyès Ahouari</p>
+      <p>Portfolio réalisé uniquement en HTML, CSS et JavaScript.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

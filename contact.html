@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ilyès Ahouari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Ilyès<span>.</span></a>
+      <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="projets.html">Projets & Veille</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">CONTACT</p>
+        <h1>Me contacter</h1>
+        <p>Une question, une proposition de stage ou simplement envie d'échanger ?</p>
+      </div>
+    </section>
+
+    <section class="section container contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">MES COORDONNÉES</p>
+        <h2 class="section-title">Parlons ensemble</h2>
+        <p>Vous pouvez me contacter directement par e-mail ou utiliser le formulaire.</p>
+        <a class="contact-item" href="mailto:Ilyes.du7742@gmail.com">
+          <span>✉️</span>
+          <div><strong>E-mail</strong><small>Ilyes.du7742@gmail.com</small></div>
+        </a>
+        <div class="contact-item">
+          <span>📞</span>
+          <div><strong>Téléphone</strong><small><a href="tel:0744790491">07 44 79 04 91</a></small></div>
+        </div>
+        <div class="contact-item">
+          <span>🎓</span>
+          <div><strong>Formation</strong><small>BTS SIO — SISR</small></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+
+        <label for="subject">Sujet</label>
+        <input type="text" id="subject" name="subject" placeholder="Objet du message" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="7" placeholder="Votre message..." required></textarea>
+
+        <button class="btn" type="submit">Envoyer le message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Ilyès Ahouari</p>
+      <p>Portfolio réalisé uniquement en HTML, CSS et JavaScript.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
